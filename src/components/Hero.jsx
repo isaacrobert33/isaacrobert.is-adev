@@ -6,6 +6,13 @@ import Meteors from "./ui/meteors";
 import PortfolioPage from "./PortfolioPage";
 import SparklesText from "./ui/sparkles-text";
 import { FlipWords } from "./ui/flip-words";
+import {
+  FaGithub,
+  FaInstagram,
+  FaLink,
+  FaLinkedinIn,
+  FaTwitter,
+} from "react-icons/fa";
 
 // AnimatedGrid Component
 const AnimatedGrid = () => {
@@ -175,6 +182,43 @@ const profile = {
                       <i className="fas fa-envelope transform transition-all duration-300 group-hover:rotate-12"></i>
                     </span>
                   </span>
+                </a>
+              </div>
+              <div className="flex flex-row items-center gap-3 text-gray-400 text-sm mt-8">
+                <a
+                  href={"https://github.com/isaacrobert33"}
+                  target="_blank"
+                  className="transition-transform duration-300 ease-in-out transform hover:scale-125"
+                >
+                  <FaGithub className="text-xl" />
+                </a>
+                <a
+                  href={"https://www.linkedin.com/in/isaac-robert-156435224/"}
+                  target="_blank"
+                  className="transition-transform duration-300 ease-in-out transform hover:scale-125"
+                >
+                  <FaLinkedinIn className="text-xl" />
+                </a>
+                <a
+                  href={"https://x.com/isaacrobert33"}
+                  target="_blank"
+                  className="transition-transform duration-300 ease-in-out transform hover:scale-125"
+                >
+                  <FaTwitter className="text-xl" />
+                </a>
+                <a
+                  href={"https://www.instagram.com/__isaacrobert33/"}
+                  target="_blank"
+                  className="transition-transform duration-300 ease-in-out transform hover:scale-125"
+                >
+                  <FaInstagram className="text-xl" />
+                </a>
+                <a
+                  href={"https://links.dev/isaacrobert33"}
+                  target="_blank"
+                  className="transition-transform duration-300 ease-in-out transform hover:scale-125"
+                >
+                  <FaLink className="text-xl" />
                 </a>
               </div>
 
