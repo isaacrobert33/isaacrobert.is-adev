@@ -1,6 +1,5 @@
 import React from "react";
-import { Github, ExternalLink } from "lucide-react";
-import olova from "../assets/images/olova.png";
+import { ExternalLink } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const MacOsButtons = () => (
@@ -21,8 +20,30 @@ const ProjectShowcase = () => {
       links: {
         demo: "https://stage.lhrobot.com.ng/",
       },
-      image: "https://server1.lhrobot.com.ng/HMS.png",
+      image: "/lizzyhealth-dashboard.png",
       featured: true,
+    },
+    {
+      title: "Traxx - Beatdrop! A Karaoke Event Management platform.",
+      description:
+        "Beatdrop is an innovative platform for music suggestion, discovery, and tipping. It aims to enhance the interaction between live performers, DJs, karaoke hosts, and their audiences by providing a seamless and engaging way for fans to request songs in real-time during an event, discover new music, and support their favorite artists financially.",
+      tags: ["Django", "React.JS", "Django Channels", "PostgresSQL"],
+      links: {
+        demo: "https://traxxsion.com/",
+      },
+      image: "/traxxsion.png",
+      featured: false,
+    },
+    {
+      title: "TraxsPro",
+      description:
+        "TraxsPro is a platform to help live-perfoming independent artists and DJs streamline fan connections, simplify earning tips, and establish a professional presence — all while staying focused on creating music and growing their brand.",
+      tags: ["Django", "Next.JS", "TailwindCSS", "PostgresSQL"],
+      links: {
+        demo: "https://traxspro.com/",
+      },
+      image: "/traxspro.png",
+      featured: false,
     },
   ];
 
@@ -53,9 +74,11 @@ const ProjectShowcase = () => {
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div>
-                    <div className="text-emerald-400 text-sm font-mono mb-2 tracking-wide uppercase">
-                      Featured Project
-                    </div>
+                    {project.featured && (
+                      <div className="text-emerald-400 text-sm font-mono mb-2 tracking-wide uppercase">
+                        Featured Project
+                      </div>
+                    )}
                     <CardTitle className="text-slate-100 text-3xl font-bold">
                       {project.title}
                     </CardTitle>
