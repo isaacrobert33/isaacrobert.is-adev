@@ -55,27 +55,27 @@ const ExperienceSection = () => {
   const experiences = [
     {
       icon: Network,
-      title: "WordPress Developer",
-      company: "Fiverr",
-      period: "2019 - 2020",
+      title: "Python Engineer",
+      company: "Polymarq",
+      period: "2023 - 2024",
       description:
-        "Worked on developing and customizing WordPress websites for clients globally.",
+        "Worked as a Python Engineer, in the development of a Business to Business (B2B) and a Business to Customer (B2C) product.",
     },
     {
       icon: Layers,
-      title: "Junior Frontend Developer",
-      company: "Sera Programmer",
-      period: "2021 - 2023",
+      title: "Python Engineer",
+      company: "Sloovi",
+      period: "2022 - 2023",
       description:
-        "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
+        "Worked  as a Python Engineer, in the development of modern business promoting tools using Python Flask, Elasticsearch, MongoDB, and Redis.",
     },
     {
       icon: Code2,
       title: "JavaScript Developer",
-      company: "OlovJS (Sera Programmer)",
-      period: "2023 - Present",
+      company: "DroidTech",
+      period: "2020 - 2021",
       description:
-        "Contributed to developing JavaScript libraries and enhancing framework functionalities.",
+        "Assisted a mobile app development team. Swift response to remote tasks was best gained during the course of the job.",
     },
   ];
 
@@ -83,9 +83,7 @@ const ExperienceSection = () => {
     <>
       <div className="min-h-screen bg-gradient-to-b  relative overflow-hidden pt-32 pb-20">
         {/* Animated gradient background */}
-        <div
-          className="absolute inset-0 bg-gradient-to-b from-[#020617] via-[#0a0f1f] to-[#000D1A]/90"
-        />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#020617] via-[#0a0f1f] to-[#000D1A]/90" />
 
         {/* Animated particles */}
         <div className="absolute inset-0">

@@ -14,15 +14,14 @@ const MacOsButtons = () => (
 const ProjectShowcase = () => {
   const projects = [
     {
-      title: "Olova! A Lightweight JavaScript Library",
+      title: "LizzyHealth! An Hospital Management system.",
       description:
-        "Olova.js is a lightweight JavaScript library for building modern, reactive, and dynamic web applications. It features a simple, component-based architecture, enabling developers to create reusable and interactive UI elements with minimal code and overhead.",
-      tags: ["JavaScript", "Reactive", "Web Development"],
+        "LizzyHealth is a robust hospital management system built on a Django & Next.JS Stack. It is designed to help hospitals manage their patients, staff, case management, and EMR.",
+      tags: ["JavaScript", "Django", "Next.JS", "Web Development"],
       links: {
-        github: "https://github.com/olovajs/olova",
-        demo: "https://olova.js.org/",
+        demo: "https://stage.lhrobot.com.ng/",
       },
-      image: olova,
+      image: "https://server1.lhrobot.com.ng/HMS.png",
       featured: true,
     },
   ];
@@ -62,14 +61,14 @@ const ProjectShowcase = () => {
                     </CardTitle>
                   </div>
                   <div className="flex gap-4">
-                    <a
+                    {/* <a
                       href={project.links.github}
                       className="text-slate-400 hover:text-emerald-400 transition-all duration-300 transform hover:scale-125"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <Github size={22} />
-                    </a>
+                    </a> */}
                     <a
                       href={project.links.demo}
                       className="text-slate-400 hover:text-emerald-400 transition-all duration-300 transform hover:scale-125"

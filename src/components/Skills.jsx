@@ -2,7 +2,15 @@ import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import IconCloudDemo from "./globe";
-import { Code2, Paintbrush, Database, Layout, Cpu, Cloud } from "lucide-react";
+import {
+  Code2,
+  Paintbrush,
+  Database,
+  Layout,
+  Cpu,
+  Cloud,
+  Paintbrush2Icon,
+} from "lucide-react";
 import {
   FaReact,
   FaNodeJs,
@@ -12,6 +20,8 @@ import {
   FaLinux,
   FaFigma,
   FaAws,
+  FaDigitalOcean,
+  FaFlask,
 } from "react-icons/fa";
 import {
   SiNextdotjs,
@@ -26,6 +36,9 @@ import {
   SiFirebase,
   SiVercel,
   SiVite,
+  SiCelery,
+  SiDjango,
+  SiRedis,
 } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
 import { BsFileEarmarkCode, BsGrid1X2 } from "react-icons/bs";
@@ -100,12 +113,20 @@ const SkillsSection = () => {
       color: "text-green-400",
       skills: [
         {
-          name: "Node.js",
-          icon: <FaNodeJs className="w-4 h-4 text-[#339933]" />,
-        },
-        {
           name: "Python",
           icon: <FaPython className="w-4 h-4 text-[#3776AB]" />,
+        },
+        {
+          name: "Django",
+          icon: <img src={"/django.png"} className="w-4 h-4 text-[#3776AB]" />,
+        },
+        {
+          name: "Flask",
+          icon: <FaFlask className="w-4 h-4 text-[#283138]" />,
+        },
+        {
+          name: "Node.js",
+          icon: <FaNodeJs className="w-4 h-4 text-[#339933]" />,
         },
         {
           name: "PostgreSQL",
@@ -152,6 +173,10 @@ const SkillsSection = () => {
       skills: [
         { name: "AWS", icon: <FaAws className="w-4 h-4 text-[#FF9900]" /> },
         {
+          name: "Digital Ocean",
+          icon: <FaDigitalOcean className="w-4 h-4 text-[#00b7ff]" />,
+        },
+        {
           name: "Docker",
           icon: <FaDocker className="w-4 h-4 text-[#2496ED]" />,
         },
@@ -173,7 +198,15 @@ const SkillsSection = () => {
           name: "VS Code",
           icon: <TbBrandVscode className="w-4 h-4 text-[#007ACC]" />,
         },
-        { name: "Jest", icon: <SiJest className="w-4 h-4 text-[#C21325]" /> },
+        {
+          name: "Celery",
+          icon: <SiCelery className="w-4 h-4 text-[#39af6a]" />,
+        },
+        {
+          name: "Django Channels",
+          icon: <SiDjango className="w-4 h-4 text-[#39af6a]" />,
+        },
+        { name: "Redis", icon: <SiRedis className="w-4 h-4 text-[#922727]" /> },
         {
           name: "Webpack",
           icon: <SiWebpack className="w-4 h-4 text-[#8DD6F9]" />,
@@ -193,20 +226,12 @@ const SkillsSection = () => {
       color: "text-yellow-400",
       skills: [
         {
-          name: "UI Animation",
-          icon: <MdAnimation className="w-4 h-4 text-[#FF4081]" />,
-        },
-        {
-          name: "SVG Animation",
-          icon: <MdAnimation className="w-4 h-4 text-[#00C853]" />,
-        },
-        {
           name: "3D Modeling",
           icon: <Cpu className="w-4 h-4 text-[#7C4DFF]" />,
         },
         {
-          name: "Motion Graphics",
-          icon: <MdAnimation className="w-4 h-4 text-[#FF6D00]" />,
+          name: "Graphics Design",
+          icon: <Paintbrush2Icon className="w-4 h-4 text-[#FF6D00]" />,
         },
       ],
     },

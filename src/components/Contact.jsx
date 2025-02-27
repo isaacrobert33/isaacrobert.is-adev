@@ -112,7 +112,12 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <p className="text-gray-400">olovajs@gmail.com</p>
+                    <a
+                      href="mailto:isaacrobertoluwaseun@gmail.com"
+                      className="text-gray-400 hover:underline"
+                    >
+                      isaacrobertoluwaseun@gmail.com
+                    </a>
                   </div>
                 </div>
 
@@ -122,7 +127,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Location</h3>
-                    <p className="text-gray-400">Laxmipure, Natore 6400</p>
+                    <p className="text-gray-400">Lagos, Nigeria.</p>
                   </div>
                 </div>
               </div>
