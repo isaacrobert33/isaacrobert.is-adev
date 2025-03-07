@@ -45,6 +45,17 @@ const ProjectShowcase = () => {
       image: "/traxspro.png",
       featured: false,
     },
+    {
+      title: "Outreach Logistics",
+      description:
+        "Outreach is literally a platform for management of logistics for an outreach event, specifically built for a student fellowship.",
+      tags: ["Next.JS", "TailwindCSS", "Prisma", "PostgresSQL"],
+      links: {
+        demo: "https://outreach-logistics.caccf.vercel.app/",
+      },
+      image: "/outreach.png",
+      featured: false,
+    },
   ];
 
   return (
