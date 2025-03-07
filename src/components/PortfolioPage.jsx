@@ -8,8 +8,7 @@ const AboutMe = () => {
         <div className="content max-w-2xl">
           <h2 className="text-[#4ECCA3] text-2xl font-bold mb-6">WHO I AM?</h2>
           <p className="text-lg leading-relaxed">
-            Hello! I’m Isaac Robert, a passionate Software Engineer specializing
-            in creating highly scalable and innovative software solutions.
+            Hello! I’m Isaac Robert, a passionate Software Engineer specializing in building scalable and highly reliable products, with expertise in both backend architecture and frontend engineering. Skilled in designing high-performance systems, optimizing user interfaces, and ensuring seamless integration across platforms. Experienced in cloud infrastructure, microservices, and modern frameworks to create fast, secure, and user-friendly applications. Passionate about solving complex challenges and delivering software that grows with business and user needs.
           </p>
         </div>
         <div className="image-container">
