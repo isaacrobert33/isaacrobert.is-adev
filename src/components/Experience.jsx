@@ -95,7 +95,7 @@ const ExperienceSection = () => {
     },
     {
       icon: Code2,
-      title: "JavaScript Developer",
+      title: "Mobile App Developer",
       company: "DroidTech",
       period: "2020 - 2021",
       description:
