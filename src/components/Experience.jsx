@@ -55,6 +55,14 @@ const ExperienceSection = () => {
   const experiences = [
     {
       icon: Network,
+      title: "Fullstack Engineer & Climate Data Analyst",
+      company: "Sustainable Solutions For Africa (SSA)",
+      period: "2025",
+      description:
+        "Performed climate data analyses of different climate variables ranging from historical periods to future periods, coupling with backend services for delivering preprocessed climate information via RESTFul APIs with Django Rest Framework, to a React frontend for final visualization to the end that users acn use it for decision support and research.",
+    },
+     {
+      icon: Network,
       title: "Backend Engineer",
       company: "East Atlantic Telecoms",
       period: "2025",
