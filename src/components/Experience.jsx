@@ -67,7 +67,7 @@ const ExperienceSection = () => {
       company: "Polymarq",
       period: "2025",
       description:
-        "Working on the backend infrastructure of a Waste Management System connecting waste collectors and operators seamlessly.",
+        "Working on the backend infrastructure of a Waste Management System connecting waste collectors and generators seamlessly.",
     },
     {
       icon: Network,
