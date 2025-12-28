@@ -55,15 +55,39 @@ const ExperienceSection = () => {
   const experiences = [
     {
       icon: Network,
-      title: "Python Engineer",
+      title: "Backend Engineer",
+      company: "East Atlantic Telecoms",
+      period: "2025",
+      description:
+        "Building the backend infrastructure of VAS-related products, specifically a loan service via USSD and an advertisement service via Wifi Infrastructures.",
+    },
+    {
+      icon: Network,
+      title: "Backend Engineer",
+      company: "Polymarq",
+      period: "2025",
+      description:
+        "Working on the backend infrastructure of a Waste Management System connecting waste collectors and operators seamlessly.",
+    },
+    {
+      icon: Network,
+      title: "Full Stack Engineer",
+      company: "PerfectHealth",
+      period: "2023 - 2025",
+      description:
+        "Built an hospital management system from scratch for mordern hospitals looking to effectively improve their operations seamlessly.",
+    },
+    {
+      icon: Network,
+      title: "Backend Engineer",
       company: "Polymarq",
       period: "2023 - 2024",
       description:
-        "Worked as a Python Engineer, in the development of a Business to Business (B2B) and a Business to Customer (B2C) product.",
+        "Worked as a Python Engineer, in the development of a Business to Business (B2B) and a Business to Customer (B2C) product connecting technicians and service end-users.",
     },
     {
       icon: Layers,
-      title: "Python Engineer",
+      title: "Backend Engineer",
       company: "Sloovi",
       period: "2022 - 2023",
       description:
