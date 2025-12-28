@@ -146,26 +146,26 @@ const SkillsSection = () => {
         },
       ],
     },
-    {
-      icon: Layout,
-      title: "UI/UX Design",
-      color: "text-purple-400",
-      skills: [
-        { name: "Figma", icon: <FaFigma className="w-4 h-4 text-[#F24E1E]" /> },
-        {
-          name: "Responsive Design",
-          icon: <Layout className="w-4 h-4 text-[#38B2AC]" />,
-        },
-        {
-          name: "Wireframing",
-          icon: <BsGrid1X2 className="w-4 h-4 text-[#9CA3AF]" />,
-        },
-        {
-          name: "Prototyping",
-          icon: <MdAnimation className="w-4 h-4 text-[#F59E0B]" />,
-        },
-      ],
-    },
+    // {
+    //   icon: Layout,
+    //   title: "UI/UX Design",
+    //   color: "text-purple-400",
+    //   skills: [
+    //     { name: "Figma", icon: <FaFigma className="w-4 h-4 text-[#F24E1E]" /> },
+    //     {
+    //       name: "Responsive Design",
+    //       icon: <Layout className="w-4 h-4 text-[#38B2AC]" />,
+    //     },
+    //     {
+    //       name: "Wireframing",
+    //       icon: <BsGrid1X2 className="w-4 h-4 text-[#9CA3AF]" />,
+    //     },
+    //     {
+    //       name: "Prototyping",
+    //       icon: <MdAnimation className="w-4 h-4 text-[#F59E0B]" />,
+    //     },
+    //   ],
+    // },
     {
       icon: Cloud,
       title: "Cloud & DevOps",
