@@ -59,7 +59,7 @@ const ExperienceSection = () => {
       company: "East Atlantic Telecoms",
       period: "2025",
       description:
-        "Building the backend infrastructure of VAS-related products, specifically a loan service via USSD and an advertisement service via Wifi Infrastructures.",
+        "Designed and implemented backend services for USSD-based loan products and WiFi-driven VAS advertising platforms, supporting high-volume transactional traffic and real-time service delivery using Python-based backend frameworks (Django, FastAPI).",
     },
     {
       icon: Network,
@@ -75,7 +75,7 @@ const ExperienceSection = () => {
       company: "PerfectHealth",
       period: "2023 - 2025",
       description:
-        "Built an hospital management system from scratch for mordern hospitals looking to effectively improve their operations seamlessly.",
+        "Led the end-to-end development of a hospital management system, streamlining patient records, billing, and operational workflows for improved clinical efficiency using Django and Next.JS.",
     },
     {
       icon: Network,
@@ -91,7 +91,7 @@ const ExperienceSection = () => {
       company: "Sloovi",
       period: "2022 - 2023",
       description:
-        "Worked  as a Python Engineer, in the development of modern business promoting tools using Python Flask, Elasticsearch, MongoDB, and Redis.",
+        "Developed scalable backend services using Python and Flask, integrating Elasticsearch, MongoDB, and Redis to support modern business promotion tools.",
     },
     {
       icon: Code2,
